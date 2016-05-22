@@ -37,6 +37,7 @@
 		0A3C8D711CF0B613008DE0F6 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C8D5A1CF0B613008DE0F6 /* SwiftRegex.swift */; };
 		0A3C8D721CF0B613008DE0F6 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C8D5B1CF0B613008DE0F6 /* WebSocket.swift */; };
 		0A3C8D741CF0B635008DE0F6 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C8D731CF0B635008DE0F6 /* SocketIOManager.swift */; };
+		0A51CE001CF20CB900911C46 /* SmartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51CDFF1CF20CB900911C46 /* SmartButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		0A3C8D5A1CF0B613008DE0F6 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
 		0A3C8D5B1CF0B613008DE0F6 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		0A3C8D731CF0B635008DE0F6 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		0A51CDFF1CF20CB900911C46 /* SmartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				0A3C8D2D1CF095AD008DE0F6 /* AppDelegate.swift */,
 				0A3C8D2F1CF095AD008DE0F6 /* ViewController.swift */,
+				0A51CDFF1CF20CB900911C46 /* SmartButton.swift */,
 				0A3C8D731CF0B635008DE0F6 /* SocketIOManager.swift */,
 				0A3C8D311CF095AD008DE0F6 /* Main.storyboard */,
 				0A3C8D371CF095AD008DE0F6 /* Assets.xcassets */,
@@ -226,6 +229,7 @@
 				0A3C8D691CF0B613008DE0F6 /* SocketIOClientSpec.swift in Sources */,
 				0A3C8D301CF095AD008DE0F6 /* ViewController.swift in Sources */,
 				0A3C8D701CF0B613008DE0F6 /* String.swift in Sources */,
+				0A51CE001CF20CB900911C46 /* SmartButton.swift in Sources */,
 				0A3C8D6F1CF0B613008DE0F6 /* SocketTypes.swift in Sources */,
 				0A3C8D5D1CF0B613008DE0F6 /* SocketAckEmitter.swift in Sources */,
 				0A3C8D721CF0B613008DE0F6 /* WebSocket.swift in Sources */,
@@ -403,6 +407,7 @@
 				0A3C8D411CF095AD008DE0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

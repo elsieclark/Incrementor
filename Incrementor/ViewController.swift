@@ -8,6 +8,8 @@
 
 import UIKit
 
+var value : Int = 00
+
 class ViewController: UIViewController {
     
     let screenSize: CGRect = UIScreen.mainScreen().bounds
