@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     var rapidTimer : NSTimer!
     
     
-    var value : Int = 0
+    var value : Int = 000
 
     override func viewDidLoad() {
         super.viewDidLoad()
